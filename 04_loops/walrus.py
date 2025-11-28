@@ -13,4 +13,4 @@ sizes = ["small", "medium", "large"]
 if (requested_size := input("Enter your size: ")) in sizes:
     print(f"Serving {requested_size} chai")
 else:
-    print(f"Size is unavailable f{requested_size}")
+    print(f"Size is unavailable now f{requested_size}")
